@@ -25,7 +25,6 @@ bufferSize  = 128
 #from wifiSTA import connectSTA as connect
 
 # Descomentar si el esp32 estará en modo de acceso AP
-
 from wifiAP1 import apConfig as connect
 
 # poner acá el nombre de red ssid y password para conectarse
@@ -56,7 +55,6 @@ def exec(data):
         print("Atras")
     elif data == b'C':
         mover_servo(60)
-        #time.sleep(2)
         print("Izquierda")
     elif data == b'C1':
         mover_servo(45)
