@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP-DevKitC")(type "KiCad")(uri "C:/Users/david/Documents/Projects/Libs/Esp-DevKitC")(options "")(descr ""))
+  (lib (name "MH-CD42")(type "KiCad")(uri "C:/Users/david/Documents/Projects/Libs/MH-CD42/cd42.pretty")(options "")(descr ""))
+)
